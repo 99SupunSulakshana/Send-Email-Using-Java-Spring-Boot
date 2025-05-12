@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Email Notification</title>
+    <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: #f0f2f5;
+          margin: 0;
+          padding: 0;
+        }
+        .email-wrapper {
+          max-width: 600px;
+          margin: 30px auto;
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          overflow: hidden;
+        }
+        .email-header {
+          background-color: #4A90E2;
+          padding: 20px;
+          color: #fff;
+          text-align: center;
+        }
+        .email-header h1 {
+          margin: 0;
+          font-size: 24px;
+        }
+        .email-body {
+          padding: 30px;
+          color: #333;
+        }
+        .email-body h2 {
+          margin-top: 0;
+        }
+        .email-body p {
+          font-size: 16px;
+          line-height: 1.6;
+        }
+        .email-button {
+          display: inline-block;
+          margin-top: 25px;
+          padding: 12px 24px;
+          background-color: #28a745;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+        }
+        .email-footer {
+          text-align: center;
+          padding: 15px;
+          font-size: 12px;
+          color: #888;
+          background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+<div class="email-wrapper">
+    <div class="email-header">
+        <h1>Welcome to Supun's App</h1>
+    </div>
+    <div class="email-body">
+        <h2>Hello Supun,</h2>
+        <p>Thank you for signing up. We’re excited to have you on board! Click the button below to verify your email address and activate your account.</p>
+        <a href="https://yourdomain.com/verify?token=abc123" class="email-button">Verify Email</a>
+    </div>
+    <div class="email-footer">
+        &copy; 2025 Supun Tech. All rights reserved.
+    </div>
+</div>
+</body>
+</html>
